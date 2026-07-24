@@ -1,0 +1,23 @@
+Module 5: Event ID 4688
+
+One of the most important Windows Security events.
+
+Meaning:
+
+A new process has been created.
+
+Every time a program starts...
+
+Windows creates Event ID 4688.
+
+Example:
+
+chrome.exe
+
+cmd.exe
+
+powershell.exe
+
+notepad.exe
+
+calc.exe
