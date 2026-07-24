@@ -1,0 +1,20 @@
+Module 4: Windows Event Logs
+
+Important Logs:
+
+Security
+System
+Application
+PowerShell
+Sysmon (if installed)
+
+TIPS:
+You can easily download and install sysmon and related to this tool in one click to download...
+
+Tool name is 
+Sysinternal
+
+download link:
+https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+
+100% safe
