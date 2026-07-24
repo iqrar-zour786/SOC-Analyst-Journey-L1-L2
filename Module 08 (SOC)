@@ -1,0 +1,11 @@
+Module 8: Parent, Child & Grandparent
+
+
+Example:
+
+wininit.exe
+      │
+      └── services.exe
+              │
+              └── svchost.exe
+
