@@ -1,0 +1,13 @@
+Module 11: svchost.exe
+
+
+Purpose:
+Hosts Windows Services.
+Normal location:
+C:\Windows\System32\svchost.exe
+
+Normal Parent:
+services.exe
+
+Suspicious:
+C:\Users\Public\svchost.exe
