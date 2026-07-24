@@ -1,0 +1,18 @@
+Module 7: Process Tree
+
+
+Every process has a parent.
+Example:
+
+explorer.exe
+      │
+      └── chrome.exe
+                │
+                └── cmd.exe
+Never investigate a process alone.
+
+Always check:
+
+Parent
+Child
+Grandparent
