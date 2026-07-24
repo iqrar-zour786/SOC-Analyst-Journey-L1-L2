@@ -1,0 +1,25 @@
+Module 10: certutil.exe
+
+
+Purpose:
+
+Certificate Utility
+
+Legitimate uses:
+
+Manage certificates
+Encode
+Decode
+
+Attackers abuse it to:
+
+Download malware
+Decode payloads
+
+Investigation:
+
+✔ Parent Process
+✔ Command Line
+✔ Destination
+✔ User
+✔ Time
