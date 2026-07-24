@@ -1,0 +1,20 @@
+Module 9: LOLBins
+
+LOLBins = Living Off The Land Binaries
+
+Attackers abuse trusted Windows tools.
+
+Examples:
+
+certutil.exe
+powershell.exe
+cmd.exe
+mshta.exe
+rundll32.exe
+regsvr32.exe
+wscript.exe
+cscript.exe
+
+These are not malicious by themselves.
+
+Context determines whether they're normal or suspicious.
