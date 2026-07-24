@@ -1,0 +1,18 @@
+SOC = Security Operations Center
+
+A SOC is a team that:
+
+Monitors security events
+Detects attacks
+Investigates alerts
+Responds to incidents
+Protects an organization's systems
+
+SOC Analyst Responsibilities:
+
+Monitor SIEM alerts
+Investigate suspicious activity
+Analyze logs
+Escalate real incidents
+Reduce false positives
+Document investigations
