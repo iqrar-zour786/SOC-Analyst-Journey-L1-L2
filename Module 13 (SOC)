@@ -1,0 +1,30 @@
+Module 13: Wazuh Investigation
+
+
+We investigated two real events.
+Investigation 1
+
+chrome.exe
+↓
+chrome.exe
+
+Conclusion:
+Normal.
+Reason:
+Chrome uses multiple processes.
+
+
+Investigation 2:
+
+services.exe
+↓
+svchost.exe
+
+Conclusion:
+Normal.
+Reason:
+
+Legitimate path
+Normal parent
+Local System
+Expected Windows behavior
