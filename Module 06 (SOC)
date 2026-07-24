@@ -1,0 +1,50 @@
+Module 6: How to Investigate Event 4688 (4688 this is called windows event IDs) => you will study more like this = 4624, 4625, and much more...
+
+Never jump to conclusions.
+
+Always ask:
+
+WHO ?
+
+Which user started it ?
+
+Examples:
+Iqrar
+SYSTEM
+LOCAL SERVICE
+NETWORK SERVICE
+
+
+WHAT ?
+Which process started?
+Examples:
+powershell.exe
+cmd.exe
+chrome.exe
+
+
+WHEN ?
+Time
+Date
+Was it during office hours?
+Midnight?
+Weekend?
+
+WHERE ?
+Executable path
+Normal:
+C:\Windows\System32\
+
+Suspicious:
+C:\Users\Public\
+
+
+WHY ?
+Expected behavior?
+Or suspicious?
+
+
+HOW ?
+Command line
+Parent Process
+Child Process
