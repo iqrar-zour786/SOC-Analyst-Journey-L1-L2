@@ -1,0 +1,10 @@
+Module 14: SID
+
+
+Example:
+S-1-5-18
+
+Meaning:
+Local System
+Highest Windows privilege.
+Normally seen with Windows services.
