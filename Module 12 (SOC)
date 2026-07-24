@@ -1,0 +1,18 @@
+Module 12: services.exe
+
+
+Also called:
+
+Service Control Manager
+
+Responsibilities:
+
+Starts services
+Stops services
+Manages services
+
+Normal Parent:
+wininit.exe
+
+Normal Child:
+svchost.exe
