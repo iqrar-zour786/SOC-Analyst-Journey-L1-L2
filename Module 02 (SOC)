@@ -1,0 +1,18 @@
+Module 2: SIEM
+
+SIEM = Security Information and Event Management
+
+Purpose:
+
+Collect logs
+Store logs
+Search logs
+Correlate events
+Generate alerts
+
+Examples:
+
+Wazuh (best for begginers)
+Splunk (best for intermediate)
+Microsoft Sentinel (for the expert of wazuh & splunk)
+QRadar
