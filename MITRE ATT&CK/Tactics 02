@@ -49,6 +49,9 @@ Real-World Context
 
 Advanced Persistent Threats (APTs) and ransomware groups spend weeks or months in Resource Development. For example:
 
+link:
+https://attack.mitre.org/tactics/TA0042/
+
 APT29 (Cozy Bear) is known to compromise legitimate websites and cloud tenants to use as redirectors and command-and-control infrastructure.
 
 Ransomware affiliates routinely purchase access to already-compromised networks from Initial Access Brokers (IABs)—a clear T1588 (Obtain Capabilities) activity.
