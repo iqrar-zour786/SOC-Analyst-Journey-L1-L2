@@ -142,3 +142,105 @@ Predict next steps
 Respond faster
 
 That's why SOC teams often map detections to MITRE ATT&CK. It gives everyone a common language for describing attacker behavior.
+
+
+                                                            Roadmap for MITRE ATT@CK
+
+                              MITRE ATT&CK
+                                     │
+ ┌───────────────────────────────────┼───────────────────────────────────┐
+ │                                   │                                   │
+Reconnaissance                 Resource Development               Initial Access
+(Gather Information)           (Prepare Resources)               (Gain Entry)
+ │                              │                                 │
+ • OSINT                        • Domains                         • Phishing
+ • Email Discovery              • Infrastructure                  • Exploits
+ • Network Scanning             • Malware                         • Valid Accounts
+
+                                     │
+                                     ▼
+
+                               Execution
+                         (Run Malicious Code)
+                                     │
+                  • PowerShell • CMD • Scripts • Malware
+
+                                     │
+                                     ▼
+
+                               Persistence
+                         (Maintain Access)
+                                     │
+          • Scheduled Tasks • Services • Registry • Startup
+
+                                     │
+                                     ▼
+
+                         Privilege Escalation
+                        (Gain Higher Privileges)
+                                     │
+            • UAC Bypass • Token Abuse • Exploits • Misconfigurations
+
+                                     │
+                                     ▼
+
+                           Defense Evasion
+                       (Avoid Detection)
+                                     │
+        • Clear Logs • Disable AV • Obfuscation • Masquerading
+
+                                     │
+                                     ▼
+
+                           Credential Access
+                       (Steal Credentials)
+                                     │
+     • LSASS Dumping • Mimikatz • Brute Force • Password Spraying
+
+                                     │
+                                     ▼
+
+                               Discovery
+                 (Gather Information About the System)
+                                     │
+ • Users • Groups • Processes • Services • Network • Shares • Host Info
+
+                                     │
+                                     ▼
+
+                           Lateral Movement
+              (Move to Other Systems in the Network)
+                                     │
+       • RDP • SMB • PsExec • WinRM • Pass-the-Hash
+
+                                     │
+                                     ▼
+
+                               Collection
+                    (Gather Valuable Data)
+                                     │
+      • Documents • Emails • Screenshots • Databases • Clipboard
+
+                                     │
+                                     ▼
+
+                          Command and Control (C2)
+                  (Communicate with Attacker Server)
+                                     │
+       • HTTPS • DNS • Web Protocols • Encrypted Channels
+
+                                     │
+                                     ▼
+
+                               Exfiltration
+                  (Steal Data Outside the Network)
+                                     │
+         • Cloud Storage • FTP • HTTPS • Compression
+
+                                     │
+                                     ▼
+
+                                Impact
+                      (Disrupt or Destroy)
+                                     │
+     • Ransomware • Data Destruction • Encryption • Service Stop
