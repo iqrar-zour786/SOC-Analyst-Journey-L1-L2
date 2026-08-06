@@ -57,3 +57,22 @@ Steal data outside the organization
 1️⃣4️⃣ Impact
       ↓
 Damage systems or business operations
+
+
+
+
+🔥 The Event IDs You Must Never Forget:
+
+Event ID	Why it matters
+4624	Successful logon
+4625	Failed logon
+4672	Special privileges assigned
+4688	⭐ Process Creation (the MVP for SOC analysts)
+4663	Object/File Access
+4698	Scheduled Task Created
+4720	User Account Created
+4738	User Account Changed
+5145	Network Share Access
+5156	Allowed Network Connection
+7045	New Service Installed
+1102	Security Log Cleared
