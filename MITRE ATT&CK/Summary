@@ -1,0 +1,59 @@
+MITRE ATT@CK
+
+
+
+1️⃣ Reconnaissance
+      ↓
+Gather information about the target
+
+2️⃣ Resource Development
+      ↓
+Prepare infrastructure (domains, malware, phishing)
+
+3️⃣ Initial Access
+      ↓
+Get inside the organization
+
+4️⃣ Execution
+      ↓
+Run malicious code
+
+5️⃣ Persistence
+      ↓
+Maintain access after reboot
+
+6️⃣ Privilege Escalation
+      ↓
+Gain higher privileges
+
+7️⃣ Defense Evasion
+      ↓
+Avoid detection
+
+8️⃣ Credential Access
+      ↓
+Steal usernames, passwords, hashes
+
+9️⃣ Discovery
+      ↓
+Learn about the environment
+
+🔟 Lateral Movement
+      ↓
+Move to other systems
+
+1️⃣1️⃣ Collection
+      ↓
+Gather valuable data
+
+1️⃣2️⃣ Command & Control
+      ↓
+Communicate with compromised systems
+
+1️⃣3️⃣ Exfiltration
+      ↓
+Steal data outside the organization
+
+1️⃣4️⃣ Impact
+      ↓
+Damage systems or business operations
