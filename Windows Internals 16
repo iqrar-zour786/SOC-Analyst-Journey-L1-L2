@@ -1,15 +1,17 @@
 Windows Internals (Most Important for soc)
 
 services.exe => a vital, legitimate Windows system process that manages background services.
-svchost.exe => an essential, legitimate Windows system process that hosts multiple background services.
+svchost.exe => (Service Host) an essential, legitimate Windows system process that hosts multiple background services.
 certutil.exe => a built-in Windows command-line tool used to manage digital certificates, check file hash integrity, and decode files.
-lsass.exe => is a vital Windows system process responsible for enforcing security policies, managing user logins, and handling password changes.
+lsass.exe => (Local Security Authority Subsystem Service) is a vital Windows system process responsible for enforcing security policies,
+managing user logins, and handling password changes.
 winlogon.exe => This process is responsible for handling user logon and logoff.
-smss.exe => the legitimate Session Manager Subsystem file in Microsoft Windows.
-csrss.exe => is a vital, legitimate Windows system process responsible for core functions like managing console windows, starting and stopping threads,
+smss.exe => (Session Manager Subsystem) the legitimate Session Manager Subsystem file in Microsoft Windows.
+csrss.exe => (Client Server Runtime Subsystem) is a vital, legitimate Windows system process responsible for core functions like managing console windows,
+starting and stopping threads,
 and handling system shutdowns
-wininit.exe => a legitimate, critical Windows system process known as the Windows Start-Up Application
+wininit.exe => (Windows Initialization Application) a legitimate, critical Windows system process known as the Windows Start-Up Application
 explorer.exe => the core Windows process that powers the graphical user interface, including the taskbar, Start menu, desktop, and File Explorer
 
 
-
+...
